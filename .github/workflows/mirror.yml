@@ -13,3 +13,4 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.ssh_key }}
           run-cargo-update: false
+          tag-filter: v*
